@@ -1,0 +1,94 @@
+body {
+    font-family: "Barlow Semi Condensed";
+    font-weight: 500, 600;
+    background-color: rgb(230, 226, 243);
+    font-size: 18px;
+}
+
+article{
+    width: auto;
+}
+section {
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.section1 {
+    background: url(/images/bg-pattern-quotation.svg) no-repeat top right;
+    background-position: 90% 2%;
+    background-size: 40%;
+    color: white;
+    background-color: hsl(263, 55%, 52%);
+    margin-top: 80px;
+    
+}
+
+.section2 {
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.section3 {
+    color: hsl(217, 19%, 35%);
+    background-color: white;
+}
+
+.section4 {
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+}
+
+.section5 {
+    color: hsl(217, 19%, 35%);
+    background-color: white;
+    
+}
+
+article {
+   padding: 20px;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.section-img-purple {
+    border: 2px solid rgb(160, 105, 173);
+}
+
+.section-img-grey {
+    border: 2px solid rgb(184, 180, 180);
+}
+
+.section-text-purple {
+    color: rgb(224, 200, 230);
+}
+
+.section-text-grey {
+    color: rgba(202, 200, 200, 0.856);
+}
+.section-text-stronggrey {
+    color: rgb(51, 47, 47);
+}
+.attribution p{
+    color: black;
+    font-size: 20px;
+}
+.attribution a{
+    font-weight: 800;
+}
+.next a{
+    text-decoration: none;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+table{
+    border-spacing: 10px;
+border-bottom: 20px;
+    border-collapse: separate;
+}
+img{
+    border-radius: 0;
+}
